@@ -45,28 +45,9 @@ namespace AnimalForm
 
         }
 
-        private void InitializeComponent()
+        private void button1_Click(object sender, EventArgs e)
         {
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.SuspendLayout();
-            // 
-            // richTextBox1
-            // 
-            this.richTextBox1.Location = new System.Drawing.Point(12, 12);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(1224, 720);
-            this.richTextBox1.TabIndex = 0;
-            this.richTextBox1.Text = "";
-            // 
-            // Form1
-            // 
-            this.ClientSize = new System.Drawing.Size(1248, 731);
-            this.Controls.Add(this.richTextBox1);
-            this.Name = "Form1";
-            this.ResumeLayout(false);
-
+            Application.Exit();
         }
-
-        private RichTextBox richTextBox1;
     }
 }

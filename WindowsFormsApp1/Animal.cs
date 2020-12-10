@@ -17,6 +17,9 @@ namespace AnimalForm
 
         private int birthYear;
 
+        private Toy toy;
+        private Animal friend;
+
         //Detta är vår klassvariabel (static)
         private static int currentYear = 2020;
 
@@ -69,6 +72,16 @@ namespace AnimalForm
         public void SetCanFly(bool canFly)
         {
             this.canFly = canFly;
+        }
+
+        public void SetFriend(string friend)
+        {
+            this.friend = friend;
+        }
+
+        public void AddToy()
+        {
+            this.toy = toy;
         }
 
         public virtual void IntroduceYourself()
